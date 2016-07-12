@@ -1,0 +1,18 @@
+.spreads{
+  margin-top: 40px;
+}
+
+.spreads img{
+  box-shadow: 5px 5px 15px grey;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  width: 18vw;
+}
+
+.book{
+padding-left: -20px;
+padding-top: 20px;
+}
+.spreads{
+	min-width: 650px;
+}

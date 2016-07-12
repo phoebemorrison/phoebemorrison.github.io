@@ -1,0 +1,115 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+#icon img{
+  width: 60px;
+  height: auto;
+}
+@font-face {
+    font-family: Tiempos Headline;
+    src: url(../fonts/Tiempos Headline/Tiempos Headline - Medium.otf);
+}
+
+#icon{
+  margin-left:20px;
+  margin-top: 60px;
+  width:80px;
+  height: auto;
+}
+.iconcolumn{
+  width: 10vw;
+  float: left;
+  height: auto;
+}
+#allcontentproject{
+  padding-left: 110px;
+}
+
+
+#icon:hover{
+   -webkit-filter: blur(2px) opacity(1);
+  -moz-filter: blur(2px) opacity(1);
+ -o-filter: blur(2px) opacity(1);
+ -ms-filter: blur(2px) opacity(1);
+ filter: blur(2px) opacity(1);
+ -webkit-transition:linear .5s;
+ transition: linear .5s;
+ float: left;
+}
+
+
+.subhead{
+  font-size: 18px;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: lighter;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+
+.projectpagetitle{
+ font-family: 'Tiempos Headline', sans-serif;
+ font-size: 22px;
+
+}
+.projectpagedescription{
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 250;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 10px;
+}
+
+.projectpageinfo{
+ padding-top: 70px;
+ width: 325px;
+}
+
+
+
+.caption{
+  font-size: 12px;
+  font-weight: 300;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+
+#icon img{
+  width: 60px;
+  height: auto;
+}
+
+
+#icon{
+  margin-left:25px;
+  margin-top: 80px;
+  width:80px;
+  height: auto;
+  position: fixed;
+}
+.iconcolumn{
+  width: 80px;
+  float: left;
+  height: 300px;
+}
+
+#menu{
+  position: fixed;
+  padding-top: 200px;
+  z-index: 100;
+  visibility: hidden;
+  padding-left: 39vw;
+
+}
+
+#menu a{
+  font-family: 'Tiempos Headline', serif;
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  width: auto;
+}

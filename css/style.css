@@ -1,0 +1,469 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+#icon img{
+  width: 60px;
+  height: auto;
+}
+
+
+#icon{
+  margin-left:20px;
+  margin-top: 60px;
+  width:80px;
+  height: auto;
+}
+.iconcolumn{
+  width: 10vw;
+  float: left;
+  height: auto;
+}
+.allcontentproject{
+  padding-left: 110px;
+}
+
+.foot{
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-size: 10px;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 300;
+  width: 100vw;
+  letter-spacing: 1px;
+  transition: linear .5s;
+  margin: 0 auto;
+}
+
+.space{
+  height: 70px;
+}
+
+#icon:hover{
+   -webkit-filter: blur(2px) opacity(1);
+  -moz-filter: blur(2px) opacity(1);
+ -o-filter: blur(2px) opacity(1);
+ -ms-filter: blur(2px) opacity(1);
+ filter: blur(2px) opacity(1);
+ -webkit-transition:linear .5s;
+ transition: linear .5s;
+ float: left;
+}
+
+
+#allprojects{
+padding-top: 60px;
+width: 80vw;
+float:left;
+padding-left: 40px;
+
+}
+
+.project{
+  padding-right: 20px;
+  padding-bottom: 20px;
+  float: left;  width: 18vw;
+  height: 18vw;
+}
+
+
+
+.crop{
+  overflow: hidden;
+  width: 18vw;
+  height: 18vw;
+  position: absolute;
+  z-index: -1;
+}
+
+.thumbinfo{
+  margin-top: 8vw;
+  text-align: center;
+  color: white;
+}
+
+.projecttitle{
+  font-family: 'Libre Baskerville', serif;
+  font-size: 15px;
+}
+
+.medium{
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 300;
+  font-size: 10px;
+  margin-top: 6px;
+}
+
+.subhead{
+  font-size: 18px;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 300;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+
+.projectpagetitle{
+ font-family: 'Libre Baskerville', serif;
+ font-size: 22px;
+}
+.projectpagedescription{
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 10px;
+}
+
+.projectpageinfo{
+ padding-top: 70px;
+ width: 325px;
+}
+
+.spreads{
+  margin-top: 40px;
+}
+
+.spreads img{
+  box-shadow: 5px 5px 15px grey;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.book{
+padding-left: -20px;
+padding-top: 20px;
+}
+
+
+.caption{
+  font-size: 12px;
+  font-weight: 300;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.prairieimages{
+  padding-top: 40px;
+
+}
+
+.prairieimages img{
+  margin-right: 20px;
+  margin-bottom: 20px;
+  box-shadow: 5px 5px 15px grey;
+  width: 60vw;
+  height: auto;
+}
+
+.twoverticalprairie img{
+  width: 28vw;
+  height: auto;
+
+}
+
+
+
+
+.saul{
+  width: 18vw;
+  height: 18vw;
+  opacity: 0;
+  background-color: #4472A7;
+  float: left;
+  transition: all .5s ease;
+}
+
+.saul:hover{
+  opacity: 1;
+}
+
+.risdkids{
+  width: 18vw;
+  height: 18vw;
+  opacity: 0;
+  background-color: #6ACACB;
+  float: left;
+  transition: all .5s ease;
+}
+
+.risdkids:hover{
+  opacity: 1;
+}
+
+.metcalf{
+  width: 18vw;
+  height: 18vw;
+  opacity: 0;
+  background-color: #f3bead;
+  float: left;
+  transition: all .5s ease;
+}
+
+.metcalf:hover{
+  opacity: 1;
+}
+
+.zinefest{
+  width: 18vw;
+  height: 18vw;
+  opacity: 0;
+  background-color: #0102FD;
+  float: left;
+  transition: all .5s ease;
+}
+
+.zinefest:hover{
+  opacity: 1;
+}
+
+.worldonview{
+  width: 18vw;
+  height: 18vw;
+  opacity: 0;
+  background-color: #666699;
+  float: left;
+  transition: all .5s ease;
+}
+
+.worldonview:hover{
+  opacity: 1;
+}
+
+.coloralphabet{
+  width: 18vw;
+  height: 18vw;
+  opacity: 0;
+  background-color: #EB9CAF;
+  float: left;
+  transition: all .5s ease;
+}
+
+.coloralphabet:hover{
+  opacity: 1;
+}
+
+.aids{
+  width: 18vw;
+  height: 18vw;
+  opacity: 0;
+  background-color: #9D3124;
+  float: left;
+  transition: all .5s ease;
+}
+
+.aids:hover{
+  opacity: 1;
+}
+
+.lasercut{
+  width: 18vw;
+  height: 18vw;
+  opacity: 0;
+  background-color: #9D3124;
+  float: left;
+  transition: all .5s ease;
+}
+
+.lasercut:hover{
+  opacity: 1;
+}
+
+.cheers{
+  width: 18vw;
+  height: 18vw;
+  opacity: 0;
+  background-color: #a4d9ca;
+  float: left;
+  transition: all .5s ease;
+}
+
+.cheers:hover{
+  opacity: 1;
+}
+
+.brownep{
+  width: 18vw;
+  height: 18vw;
+  opacity: 0;
+  background-color: #df3a64;
+  float: left;
+  transition: all .5s ease;
+}
+
+.brownep:hover{
+  opacity: 1;
+}
+
+.prairiedog{
+  width: 18vw;
+  height: 18vw;
+  opacity: 0;
+  background-color: #ffcc99;
+  float: left;
+  transition: all .5s ease;
+}
+
+.prairiedog:hover{
+  opacity: 1;
+}
+
+.whatdada{
+  width: 18vw;
+  height: 18vw;
+  opacity: 0;
+  background-color: #EDEDED;
+  float: left;
+  transition: all .5s ease;
+}
+
+.whatdada:hover{
+ opacity: 1;
+}
+
+.sandwich{
+  width: 18vw;
+  height: 18vw;
+  opacity: 0;
+  background-color: #EA7026;
+  float: left;
+  transition: all .5s ease;
+}
+
+.sandwich:hover{
+ opacity: 1;
+}
+
+.evidence{
+  width: 18vw;
+  height: 18vw;
+  opacity: 0;
+  background-color: #4a84b1;
+  float: left;
+  transition: all .5s ease;
+}
+
+.evidence:hover{
+ opacity: 1;
+}
+
+.mappingincolor{
+  width: 18vw;
+  height: 18vw;
+  opacity: 0;
+  background-color: #F1954E;
+  float: left;
+  transition: all .5s ease;
+}
+
+.mappingincolor:hover{
+ opacity: 1;
+}
+
+.castelvecchio{
+  width: 18vw;
+  height: 18vw;
+  opacity: 0;
+  background-color: #95D4CB;
+  float: left;
+  transition: all .5s ease;
+}
+
+.castelvecchio:hover{
+ opacity: 1;
+}
+
+.dadadinner{
+  width: 18vw;
+  height: 18vw;
+  opacity: 0;
+  background-color: #69855C;
+  float: left;
+  transition: all .5s ease;
+}
+
+.dadadinner:hover{
+ opacity: 1;
+}
+
+.linearmobil{
+  width: 18vw;
+  height: 18vw;
+  opacity: 0;
+  background-color: #669999;
+  float: left;
+  transition: all .5s ease;
+}
+
+.linearmobil:hover{
+ opacity: 1;
+}
+
+.postcard{
+  width: 18vw;
+  height: 18vw;
+  opacity: 0;
+  background-color: #993333;
+  float: left;
+  transition: all .5s ease;
+}
+
+.postcard:hover{
+ opacity: 1;
+}
+
+.chair{
+  width: 18vw;
+  height: 18vw;
+  opacity: 0;
+  background-color: #5BAB78;
+  float: left;
+  transition: all .5s ease;
+}
+
+.chair:hover{
+ opacity: 1;
+}
+
+.mariobotta{
+  width: 18vw;
+  height: 18vw;
+  opacity: 0;
+  background-color: #74A2D3;
+  float: left;
+  transition: all .5s ease;
+}
+
+.mariobotta:hover{
+ opacity: 1;
+}
+
+.alto{
+  width: 18vw;
+  height: 18vw;
+  opacity: 0;
+  background-color: #003366;
+  float: left;
+  transition: all .5s ease;
+}
+
+.alto:hover{
+ opacity: 1;
+}
+
+
+
+
+.bostonzineposter{
+  margin-left: 480px;
+  width: 400px;
+  height: auto;
+  margin-top: -125px;
+  float:left;
+  margin
+}
+
+.bostonzineposter img{
+  width: 400px;
+  height: auto;
+  box-shadow: 5px 5px 15px grey;
+}

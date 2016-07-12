@@ -1,0 +1,464 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+#icon img{
+  width: 60px;
+  height: auto;
+}
+
+@font-face {
+    font-family: Tiempos Headline;
+    src: url(../fonts/Tiempos Headline/Tiempos Headline - Medium.otf);
+}
+
+#icon{
+  margin-left:25px;
+  margin-top: 80px;
+  width:80px;
+  height: auto;
+  position: fixed;
+}
+.iconcolumn{
+  width: 80px;
+  float: left;
+  height: 300px;
+}
+
+#menu{
+  position: fixed;
+  padding-top: 200px;
+  z-index: 100;
+  visibility: hidden;
+  padding-left: 39vw;
+}
+
+#menu a{
+  font-family: Tiempos Headline, sans-serif;
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  width: auto;
+}
+
+.allcontentproject{
+  padding-left: 110px;
+}
+
+.foot{
+  padding-top: 60px;
+  padding-bottom: 20px;
+  font-size: 10px;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 300;
+  width: 100vw;
+  letter-spacing: 1px;
+  transition: linear .5s;
+  margin: 0 auto;
+}
+
+.foot td{
+  text-align: center;
+}
+
+.space{
+  height: 70px;
+}
+
+#icon:hover{
+opacity: .1;
+transition: all .5s ease;
+}
+
+
+#allprojects{
+padding-top: 80px;
+width: 80vw;
+float:left;
+padding-left: 40px;
+
+}
+
+.project{
+  padding-right: 20px;
+  padding-bottom: 20px;
+  float: left;  
+  width: 18vw;
+  height: 18vw;
+}
+
+
+
+.crop{
+  overflow: hidden;
+  width: 18vw;
+  height: 18vw;
+  position: absolute;
+  z-index: -1;
+}
+img{
+  width:18vw;
+  height: 18vw;
+}
+
+.thumbinfo{
+  margin-top: 8vw;
+  text-align: center;
+  color: white;
+}
+
+.projecttitle{
+  font-family: 'Libre Baskerville', serif;
+  font-size: 15px;
+}
+
+.medium{
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 300;
+  font-size: 10px;
+  margin-top: 6px;
+}
+
+.subhead{
+  font-size: 18px;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 300;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+
+.projectpagetitle{
+ font-family: 'Libre Baskerville', serif;
+ font-size: 22px;
+}
+.projectpagedescription{
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 10px;
+}
+
+.projectpageinfo{
+ padding-top: 70px;
+ width: 325px;
+}
+
+.caption{
+  font-size: 12px;
+  font-weight: 300;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+
+
+
+
+
+.saul{
+  width: 18vw;
+  height: 18vw;
+  opacity: 0;
+  background-color: #4472A7;
+  float: left;
+  transition: all .5s ease;
+}
+
+.saul:hover{
+  opacity: 1;
+}
+
+.risdkids{
+  width: 18vw;
+  height: 18vw;
+  opacity: 0;
+  background-color: #6ACACB;
+  float: left;
+  transition: all .5s ease;
+}
+
+.risdkids:hover{
+  opacity: 1;
+}
+
+.metcalf{
+  width: 18vw;
+  height: 18vw;
+  opacity: 0;
+  background-color: #f3bead;
+  float: left;
+  transition: all .5s ease;
+}
+
+.metcalf:hover{
+  opacity: 1;
+}
+
+.zinefest{
+  width: 18vw;
+  height: 18vw;
+  opacity: 0;
+  background-color: #0102FD;
+  float: left;
+  transition: all .5s ease;
+}
+
+.zinefest:hover{
+  opacity: 1;
+}
+
+.worldonview{
+  width: 18vw;
+  height: 18vw;
+  opacity: 0;
+  background-color: #666699;
+  float: left;
+  transition: all .5s ease;
+}
+
+.worldonview:hover{
+  opacity: 1;
+}
+
+.coloralphabet{
+  width: 18vw;
+  height: 18vw;
+  opacity: 0;
+  background-color: #EB9CAF;
+  float: left;
+  transition: all .5s ease;
+}
+
+.coloralphabet:hover{
+  opacity: 1;
+}
+
+.aids{
+  width: 18vw;
+  height: 18vw;
+  opacity: 0;
+  background-color: #9D3124;
+  float: left;
+  transition: all .5s ease;
+}
+
+.aids:hover{
+  opacity: 1;
+}
+
+.lasercut{
+  width: 18vw;
+  height: 18vw;
+  opacity: 0;
+  background-color: #9D3124;
+  float: left;
+  transition: all .5s ease;
+}
+
+.lasercut:hover{
+  opacity: 1;
+}
+
+.cheers{
+  width: 18vw;
+  height: 18vw;
+  opacity: 0;
+  background-color: #a4d9ca;
+  float: left;
+  transition: all .5s ease;
+}
+
+.cheers:hover{
+  opacity: 1;
+}
+
+.brownep{
+  width: 18vw;
+  height: 18vw;
+  opacity: 0;
+  background-color: #df3a64;
+  float: left;
+  transition: all .5s ease;
+}
+
+.brownep:hover{
+  opacity: 1;
+}
+
+.prairiedog{
+  width: 18vw;
+  height: 18vw;
+  opacity: 0;
+  background-color: #ffcc99;
+  float: left;
+  transition: all .5s ease;
+}
+
+.prairiedog:hover{
+  opacity: 1;
+}
+
+.whatdada{
+  width: 18vw;
+  height: 18vw;
+  opacity: 0;
+  background-color: #EDEDED;
+  float: left;
+  transition: all .5s ease;
+}
+
+.whatdada:hover{
+ opacity: 1;
+}
+
+.sandwich{
+  width: 18vw;
+  height: 18vw;
+  opacity: 0;
+  background-color: #EA7026;
+  float: left;
+  transition: all .5s ease;
+}
+
+.sandwich:hover{
+ opacity: 1;
+}
+
+.evidence{
+  width: 18vw;
+  height: 18vw;
+  opacity: 0;
+  background-color: #4a84b1;
+  float: left;
+  transition: all .5s ease;
+}
+
+.evidence:hover{
+ opacity: 1;
+}
+
+.mappingincolor{
+  width: 18vw;
+  height: 18vw;
+  opacity: 0;
+  background-color: #F1954E;
+  float: left;
+  transition: all .5s ease;
+}
+
+.mappingincolor:hover{
+ opacity: 1;
+}
+
+.castelvecchio{
+  width: 18vw;
+  height: 18vw;
+  opacity: 0;
+  background-color: #95D4CB;
+  float: left;
+  transition: all .5s ease;
+}
+
+.castelvecchio:hover{
+ opacity: 1;
+}
+
+.dadadinner{
+  width: 18vw;
+  height: 18vw;
+  opacity: 0;
+  background-color: #69855C;
+  float: left;
+  transition: all .5s ease;
+}
+
+.dadadinner:hover{
+ opacity: 1;
+}
+
+.linearmobil{
+  width: 18vw;
+  height: 18vw;
+  opacity: 0;
+  background-color: #669999;
+  float: left;
+  transition: all .5s ease;
+}
+
+.linearmobil:hover{
+ opacity: 1;
+}
+
+.postcard{
+  width: 18vw;
+  height: 18vw;
+  opacity: 0;
+  background-color: #993333;
+  float: left;
+  transition: all .5s ease;
+}
+
+.postcard:hover{
+ opacity: 1;
+}
+
+.chair{
+  width: 18vw;
+  height: 18vw;
+  opacity: 0;
+  background-color: #5BAB78;
+  float: left;
+  transition: all .5s ease;
+}
+
+.chair:hover{
+ opacity: 1;
+}
+
+.mariobotta{
+  width: 18vw;
+  height: 18vw;
+  opacity: 0;
+  background-color: #74A2D3;
+  float: left;
+  transition: all .5s ease;
+}
+
+.mariobotta:hover{
+ opacity: 1;
+}
+
+.alto{
+  width: 18vw;
+  height: 18vw;
+  opacity: 0;
+  background-color: #003366;
+  float: left;
+  transition: all .5s ease;
+}
+
+.alto:hover{
+ opacity: 1;
+}
+
+
+
+
+.bostonzineposter{
+  margin-left: 480px;
+  width: 400px;
+  height: auto;
+  margin-top: -125px;
+  float:left;
+  margin
+}
+
+.bostonzineposter img{
+  width: 400px;
+  height: auto;
+  box-shadow: 5px 5px 15px grey;
+}

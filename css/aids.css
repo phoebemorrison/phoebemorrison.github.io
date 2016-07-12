@@ -1,0 +1,18 @@
+.aidsimages{
+  padding-top: 40px;
+
+}
+
+.aidsimages img{
+  margin-right: 20px;
+  margin-bottom: 20px;
+  box-shadow: 5px 5px 15px grey;
+  width: 50vw;
+  height: auto;
+}
+
+.twovertical img{
+  width: 28vw;
+  height: auto;
+
+}

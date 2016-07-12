@@ -1,0 +1,18 @@
+.prairieimages{
+  padding-top: 40px;
+
+}
+
+.prairieimages img{
+  margin-right: 20px;
+  margin-bottom: 20px;
+  box-shadow: 5px 5px 15px grey;
+  width: 60vw;
+  height: auto;
+}
+
+.twoverticalprairie img{
+  width: 28vw;
+  height: auto;
+
+}

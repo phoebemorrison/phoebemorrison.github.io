@@ -1,0 +1,17 @@
+.spreads{
+  margin-top: 40px;
+}
+
+.spreads img{
+  width: 42vw;
+  margin: 0 auto;
+}
+.crop{
+	width:40vw;
+	height: 40vw;
+	overflow: hidden;
+	box-shadow: 5px 5px 15px grey;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  float: left;
+}
