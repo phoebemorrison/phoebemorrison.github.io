@@ -1,0 +1,9 @@
+.spreads img{
+  box-shadow: 5px 5px 15px grey;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  width: 35vw;
+}
+.spreads{
+	padding-top: 40px;
+}
