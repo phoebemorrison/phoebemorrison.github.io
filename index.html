@@ -283,45 +283,26 @@
 
       </span>
     </div>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
-        //DOM loaded 
-        $(document).ready(function() {
-            
-            //attach click event to button
-            $('#icon').click(function(){
-                
-                //when button is clicked we call blurElement function
-                blurElement("#allcontent", 2);
+<script>
+var filterVal = 'blur(15px)';
+$('#icon').click(function(){
+  $('#allcontent')
+  .css('filter',filterVal)
+  .css('webkitFilter',filterVal)
+  .css('mozFilter',filterVal)
+  .css('oFilter',filterVal)
+  .css('msFilter',filterVal);
+  menu.style.visibility = "visible";
+  menu.style.transition = "linear .8s";
 
-            });
+});
+</script>
 
-            //attach click event to button
-            $('#allcontent').click(function(){
 
-                //set box blur to 0
-                blurElement("#allcontent", 0);
 
-            });
-
-           
-        });
-
-        //set the css3 blur to an element
-        function blurElement(element, size){
-            var filterVal = 'blur('+size+'2px)';
-            $(element)
-              .css('filter',filterVal)
-              .css('webkitFilter',filterVal)
-              .css('mozFilter',filterVal)
-              .css('oFilter',filterVal)
-              .css('msFilter',filterVal);
-        }
-
-       
-
-    </script>
+   
   </body>
 
 </html>

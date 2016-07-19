@@ -98,7 +98,6 @@ body{
   position: fixed;
   padding-top: 200px;
   z-index: 100;
-  visibility: hidden;
   padding-left: 39vw;
 
 }
