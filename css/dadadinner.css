@@ -1,10 +1,56 @@
-.imagesdada img{
-	width: 50vw;
-	  box-shadow: 5px 5px 15px grey;
-  margin-bottom: 20px;
-  margin-right: 20px;
+.threepics{
+  width: 72vw;
+}
+.threepics img{
+  width: 22vw;
 }
 
-.imagesdada{
-	 margin-top: 40px;
+.leftcaption img{
+	float: right;
+	width: 40vw;
+	padding-right: 0px;
+	margin-right: 0px;
+}
+.leftcaption{
+	float: left;
+	width: 70vw;
+	height: auto;
+}
+
+.wide img{
+	width: 70vw;
+	float:left;
+}
+
+
+.floatrightcaption{
+	font-size: 12px;
+  font-weight: 300;
+  font-family: 'Fira Sans', sans-serif;
+  float: right;
+  padding-left: 10px;
+  line-height: 16px;
+  margin-top: 40px;
+  padding-right: 10vw;
+  }
+
+.floatleftcaption {
+	font-size: 12px;
+  font-weight: 300;
+  font-family: 'Fira Sans', sans-serif;
+  float: left;
+  padding-right: 5vw;
+  line-height: 16px;
+  margin-top: 40px;
+  }
+
+
+.rightcaptionbox img{
+		width: 35vw;
+		display: inline-block;
+}
+
+.rightcaptionbox{
+	float: left;
+	width: 70vw;
 }

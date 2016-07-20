@@ -14,6 +14,14 @@
         <a href="#"><img src="../images/icon.png"></a>
       </div>
     </div>
+
+    <div id="menu">
+      <a href="index.html">WORK</a>
+      <a href="html/about.html">ABOUT</a>
+      <a href="html/collections.html">COLLECTIONS</a>
+      <a href="html/contact.html">CONTACT</a>
+      <a href="html/resume.html">RESUME</a>
+    </div>
 <div id="allcontentproject">
 	<div class="projectpageinfo">
 	<div class="projectpagetitle">Saul Bass</div>
@@ -29,5 +37,23 @@
 	<iframe width="650" height="325" src="http://e.issuu.com/embed.html#17100055/36819600" frameborder="0" allowfullscreen></iframe>
 	</div>
 </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<script>
+var filterVal = 'blur(40px)';
+$('#icon').click(function(){
+  $('#allcontentproject')
+  .css('filter',filterVal)
+  .css('webkitFilter',filterVal)
+  .css('mozFilter',filterVal)
+  .css('oFilter',filterVal)
+  .css('opacity','.5')
+  .css('transition',('all .8s ease'));
+  menu.style.visibility = "visible";
+  menu.style.transition = "linear .8s";
+
+});
+</script>
+
 </body>
 </html>

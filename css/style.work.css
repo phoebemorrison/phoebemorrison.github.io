@@ -44,9 +44,14 @@ body{
   margin-top: 20px;
   width: auto;
 }
-
-.allcontentproject{
-  padding-left: 110px;
+#menu a:hover{
+     -webkit-filter: blur(1px) opacity(1);
+  -moz-filter: blur(1px) opacity(1);
+ -o-filter: blur(1px) opacity(1);
+ -ms-filter: blur(1px) opacity(1);
+ filter: blur(1px) opacity(1);
+ -webkit-transition:linear .5s;
+ transition: linear .5s;
 }
 
 .foot{
@@ -70,8 +75,13 @@ body{
 }
 
 #icon:hover{
-opacity: .1;
-transition: all .5s ease;
+-webkit-filter: blur(1px) opacity(1);
+  -moz-filter: blur(1px) opacity(1);
+ -o-filter: blur(1px) opacity(1);
+ -ms-filter: blur(1px) opacity(1);
+ filter: blur(1px) opacity(1);
+ -webkit-transition:linear .5s;
+ transition: linear .5s;
 }
 
 
@@ -89,8 +99,8 @@ padding-left: 40px;
   float: left;  
   width: 18vw;
   height: 18vw;
-}
 
+}
 
 
 .crop{
@@ -100,10 +110,14 @@ padding-left: 40px;
   position: absolute;
   z-index: -1;
 }
+
+
+
 img{
   width:18vw;
   height: 18vw;
 }
+
 
 .thumbinfo{
   margin-top: 8vw;

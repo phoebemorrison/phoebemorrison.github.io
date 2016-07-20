@@ -1,18 +1,62 @@
-.aidsimages{
-  padding-top: 40px;
 
+
+.floatrightcaption{
+	font-size: 12px;
+  font-weight: 300;
+  font-family: 'Fira Sans', sans-serif;
+  float: right;
+  padding-left: 10px;
+  line-height: 16px;
+  margin-top: 40px;
+  padding-right: 10vw;
+  }
+
+.floatleftcaption {
+	font-size: 12px;
+  font-weight: 300;
+  font-family: 'Fira Sans', sans-serif;
+  float: left;
+  padding-right: 5vw;
+  line-height: 16px;
+  margin-top: 40px;
+  }
+
+
+.rightcaptionbox img{
+		width: 35vw;
+		display: inline-block;
 }
 
-.aidsimages img{
-  margin-right: 20px;
-  margin-bottom: 20px;
-  box-shadow: 5px 5px 15px grey;
-  width: 50vw;
-  height: auto;
+.rightcaptionbox{
+	float: left;
+	width: 70vw;
 }
 
-.twovertical img{
-  width: 28vw;
-  height: auto;
+.wide img{
+	width: 70vw;
+	float:left;
+}
 
+.twowide{
+	width: 70vw;
+}
+.twowide img{
+	width:33.5vw;
+	float: left;
+}
+
+#right{
+	float: right;
+}
+
+.leftcaption img{
+	float: right;
+	width: 40vw;
+	padding-right: 0px;
+	margin-right: 0px;
+}
+.leftcaption{
+	float: left;
+	width: 70vw;
+	height: auto;
 }

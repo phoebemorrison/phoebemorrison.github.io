@@ -13,27 +13,38 @@ body{
 }
 
 #icon{
-  margin-left:20px;
+  margin-left:25px;
   margin-top: 60px;
   width:80px;
   height: auto;
 }
 .iconcolumn{
-  width: 10vw;
+  width: 80px;
   float: left;
   height: auto;
 }
 #allcontentproject{
-  padding-left: 110px;
+  padding-left: 140px;
+}
+
+.images img{
+  width: 35vw;
+    box-shadow: 5px 5px 15px grey;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.images{
+   margin-top: 40px;
 }
 
 
 #icon:hover{
-   -webkit-filter: blur(2px) opacity(1);
-  -moz-filter: blur(2px) opacity(1);
- -o-filter: blur(2px) opacity(1);
- -ms-filter: blur(2px) opacity(1);
- filter: blur(2px) opacity(1);
+   -webkit-filter: blur(1px) opacity(1);
+  -moz-filter: blur(1px) opacity(1);
+ -o-filter: blur(1px) opacity(1);
+ -ms-filter: blur(1px) opacity(1);
+ filter: blur(1px) opacity(1);
  -webkit-transition:linear .5s;
  transition: linear .5s;
  float: left;
@@ -55,10 +66,11 @@ body{
 }
 .projectpagedescription{
   font-family: 'Fira Sans', sans-serif;
-  font-weight: 250;
+  font-weight: 300;
   font-size: 14px;
   line-height: 20px;
   margin-top: 10px;
+
 }
 
 .projectpageinfo{
@@ -98,12 +110,12 @@ body{
   position: fixed;
   padding-top: 200px;
   z-index: 100;
+  visibility: hidden;
   padding-left: 39vw;
-
 }
 
 #menu a{
-  font-family: 'Tiempos Headline', serif;
+  font-family: Tiempos Headline, sans-serif;
   font-size: 30px;
   text-decoration: none;
   color: black;
@@ -111,4 +123,13 @@ body{
   text-align: center;
   margin-top: 20px;
   width: auto;
+}
+#menu a:hover{
+     -webkit-filter: blur(1px) opacity(1);
+  -moz-filter: blur(1px) opacity(1);
+ -o-filter: blur(1px) opacity(1);
+ -ms-filter: blur(1px) opacity(1);
+ filter: blur(1px) opacity(1);
+ -webkit-transition:linear .5s;
+ transition: linear .5s;
 }
