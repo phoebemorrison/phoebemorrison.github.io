@@ -28,10 +28,13 @@ body{
 
 #menu{
   position: fixed;
-  padding-top: 200px;
+  left: 39vw;
+  top: 200px;
+  /*padding-top: 200px;*/
   z-index: 100;
-  visibility: hidden;
-  padding-left: 39vw;
+  display: none;
+  /*visibility: hidden;*/
+  /*padding-left: 39vw;*/
 }
 
 #menu a{
@@ -221,7 +224,7 @@ img{
   transition: all .5s ease;
 }
 
-.zinefest:hover{
+body.nojQuery .zinefest:hover{
   opacity: 1;
 }
 

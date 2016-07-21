@@ -1,15 +1,6 @@
 
 
-.floatrightcaption{
-	font-size: 12px;
-  font-weight: 300;
-  font-family: 'Fira Sans', sans-serif;
-  float: right;
-  padding-left: 10px;
-  line-height: 16px;
-  margin-top: 40px;
-  padding-right: 10vw;
-  }
+
 
 .floatleftcaption {
 	font-size: 12px;
@@ -22,20 +13,8 @@
   }
 
 
-.rightcaptionbox img{
-		width: 35vw;
-		display: inline-block;
-}
 
-.rightcaptionbox{
-	float: left;
-	width: 70vw;
-}
 
-.wide img{
-	width: 70vw;
-	float:left;
-}
 
 .twowide{
 	width: 70vw;

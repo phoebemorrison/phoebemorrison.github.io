@@ -27,18 +27,6 @@ body{
   padding-left: 140px;
 }
 
-.images img{
-  width: 35vw;
-    box-shadow: 5px 5px 15px grey;
-  margin-bottom: 20px;
-  margin-right: 20px;
-}
-
-.images{
-   margin-top: 40px;
-}
-
-
 #icon:hover{
    -webkit-filter: blur(1px) opacity(1);
   -moz-filter: blur(1px) opacity(1);
@@ -57,6 +45,7 @@ body{
   font-weight: lighter;
   padding-bottom: 10px;
   padding-top: 20px;
+  float: left;
 }
 
 .projectpagetitle{
@@ -133,3 +122,74 @@ body{
  -webkit-transition:linear .5s;
  transition: linear .5s;
 }
+.images img{
+  box-shadow: 5px 5px 15px grey;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.images{
+   margin-top: 40px;
+}
+
+.rightcaptionbox img{
+    width: 35vw;
+    display: inline-block;
+}
+
+.rightcaptionbox{
+  float: left;
+  width: 70vw;
+}
+
+.floatrightcaption{
+  font-size: 12px;
+  font-weight: 300;
+  font-family: 'Fira Sans', sans-serif;
+  float: right;
+  padding-left: 10px;
+  line-height: 16px;
+  margin-top: 40px;
+  padding-right: 10vw;
+  }
+
+
+.wide img{
+  width: 70vw;
+  float:left;
+}
+
+.leftcaption img{
+  float: right;
+  width: 40vw;
+  padding-right: 0px;
+  margin-right: 0px;
+}
+.leftcaption{
+  float: left;
+  width: 70vw;
+  height: auto;
+}
+
+.floatleftcaption {
+  font-size: 12px;
+  font-weight: 300;
+  font-family: 'Fira Sans', sans-serif;
+  float: left;
+  padding-right: 5vw;
+  line-height: 16px;
+  margin-top: 40px;
+  }
+
+  .twowide{
+  width: 84vw;
+}
+.twowide img{
+  width:33.5vw;
+  float: left;
+}
+
+
+
+
+
