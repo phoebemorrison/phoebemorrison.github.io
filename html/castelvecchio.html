@@ -37,5 +37,50 @@
 		<img src="../images/castelvecchio/IMG_0082.jpg">
 	</div>
 	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<script>
+$('body').addClass('nojQuery');
+// var menu = $('#menu');
+
+var filterVal = 'blur(40px)';
+$('#icon').click(function(){
+  $('#allcontent')
+  .css('filter',filterVal)
+  .css('webkitFilter',filterVal)
+  .css('mozFilter',filterVal)
+  .css('oFilter',filterVal)
+  .css('opacity','.5');
+  // .css('transition',('all .8s ease'));
+  // menu.style.visibility = "visible";
+  menu.style.display = "block";
+  menu.style.transition = "linear .8s";
+
+ $('body').removeClass('nojQuery');
+
+});
+var nofilter = 'blur(0px)';
+$('#allcontentsection').click(function(e){
+	// menu.style.visibility = "hidden";
+	menu.style.display = "none";
+  $('#allcontent')
+  .css('filter',nofilter)
+  .css('webkitFilter',nofilter)
+  .css('mozFilter',nofilter)
+  .css('oFilter',nofilter)
+   .css('opacity','1');
+  // alert('blur');
+  $('body').addClass('nojQuery');
+  // menu.style.transition = "linear .8s";
+  // e.preventDefault();
+});
+
+
+
+
+
+</script>
+
 </body>
 </html>

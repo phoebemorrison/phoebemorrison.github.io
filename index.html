@@ -296,8 +296,8 @@ $('#icon').click(function(){
   .css('webkitFilter',filterVal)
   .css('mozFilter',filterVal)
   .css('oFilter',filterVal)
-  .css('opacity','.5')
-  .css('transition',('all .8s ease'));
+  .css('opacity','.5');
+  // .css('transition',('all .8s ease'));
   // menu.style.visibility = "visible";
   menu.style.display = "block";
   menu.style.transition = "linear .8s";
@@ -316,7 +316,7 @@ $('#allcontentsection').click(function(e){
   .css('oFilter',nofilter)
    .css('opacity','1');
   // alert('blur');
-  
+  $('body').addClass('nojQuery');
   // menu.style.transition = "linear .8s";
   // e.preventDefault();
 });

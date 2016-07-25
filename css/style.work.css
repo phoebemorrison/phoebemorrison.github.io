@@ -182,10 +182,16 @@ img{
   opacity: 0;
   background-color: #4472A7;
   float: left;
-  transition: all .5s ease;
+  /*transition: all .5s ease;*/
+  /*transition: opacity .5s ease;*/
+  transition: opacity .5s;
+  -moz-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
+
 }
 
-.saul:hover{
+body.nojQuery .saul:hover{
   opacity: 1;
 }
 
@@ -196,9 +202,12 @@ img{
   background-color: #6ACACB;
   float: left;
   transition: all .5s ease;
+    -moz-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
 }
 
-.risdkids:hover{
+body.nojQuery .risdkids:hover{
   opacity: 1;
 }
 
@@ -209,9 +218,12 @@ img{
   background-color: #f3bead;
   float: left;
   transition: all .5s ease;
+    -moz-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
 }
 
-.metcalf:hover{
+body.nojQuery .metcalf:hover{
   opacity: 1;
 }
 
@@ -222,6 +234,9 @@ img{
   background-color: #0102FD;
   float: left;
   transition: all .5s ease;
+    -moz-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
 }
 
 body.nojQuery .zinefest:hover{
@@ -235,9 +250,12 @@ body.nojQuery .zinefest:hover{
   background-color: #666699;
   float: left;
   transition: all .5s ease;
+    -moz-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
 }
 
-.worldonview:hover{
+body.nojQuery .worldonview:hover{
   opacity: 1;
 }
 
@@ -248,9 +266,12 @@ body.nojQuery .zinefest:hover{
   background-color: #EB9CAF;
   float: left;
   transition: all .5s ease;
+    -moz-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
 }
 
-.coloralphabet:hover{
+body.nojQuery .coloralphabet:hover{
   opacity: 1;
 }
 
@@ -261,9 +282,12 @@ body.nojQuery .zinefest:hover{
   background-color: #9D3124;
   float: left;
   transition: all .5s ease;
+    -moz-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
 }
 
-.aids:hover{
+body.nojQuery .aids:hover{
   opacity: 1;
 }
 
@@ -274,9 +298,12 @@ body.nojQuery .zinefest:hover{
   background-color: #9D3124;
   float: left;
   transition: all .5s ease;
+    -moz-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
 }
 
-.lasercut:hover{
+body.nojQuery .lasercut:hover{
   opacity: 1;
 }
 
@@ -287,9 +314,12 @@ body.nojQuery .zinefest:hover{
   background-color: #a4d9ca;
   float: left;
   transition: all .5s ease;
+    -moz-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
 }
 
-.cheers:hover{
+body.nojQuery .cheers:hover{
   opacity: 1;
 }
 
@@ -300,9 +330,12 @@ body.nojQuery .zinefest:hover{
   background-color: #df3a64;
   float: left;
   transition: all .5s ease;
+    -moz-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
 }
 
-.brownep:hover{
+body.nojQuery .brownep:hover{
   opacity: 1;
 }
 
@@ -313,9 +346,12 @@ body.nojQuery .zinefest:hover{
   background-color: #ffcc99;
   float: left;
   transition: all .5s ease;
+    -moz-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
 }
 
-.prairiedog:hover{
+body.nojQuery .prairiedog:hover{
   opacity: 1;
 }
 
@@ -326,9 +362,12 @@ body.nojQuery .zinefest:hover{
   background-color: #EDEDED;
   float: left;
   transition: all .5s ease;
+    -moz-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
 }
 
-.whatdada:hover{
+body.nojQuery .whatdada:hover{
  opacity: 1;
 }
 
@@ -339,9 +378,12 @@ body.nojQuery .zinefest:hover{
   background-color: #EA7026;
   float: left;
   transition: all .5s ease;
+    -moz-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
 }
 
-.sandwich:hover{
+body.nojQuery .sandwich:hover{
  opacity: 1;
 }
 
@@ -352,9 +394,12 @@ body.nojQuery .zinefest:hover{
   background-color: #4a84b1;
   float: left;
   transition: all .5s ease;
+    -moz-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
 }
 
-.evidence:hover{
+body.nojQuery .evidence:hover{
  opacity: 1;
 }
 
@@ -365,9 +410,12 @@ body.nojQuery .zinefest:hover{
   background-color: #F1954E;
   float: left;
   transition: all .5s ease;
+    -moz-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
 }
 
-.mappingincolor:hover{
+body.nojQuery .mappingincolor:hover{
  opacity: 1;
 }
 
@@ -378,9 +426,12 @@ body.nojQuery .zinefest:hover{
   background-color: #95D4CB;
   float: left;
   transition: all .5s ease;
+    -moz-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
 }
 
-.castelvecchio:hover{
+body.nojQuery .castelvecchio:hover{
  opacity: 1;
 }
 
@@ -391,9 +442,12 @@ body.nojQuery .zinefest:hover{
   background-color: #69855C;
   float: left;
   transition: all .5s ease;
+    -moz-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
 }
 
-.dadadinner:hover{
+body.nojQuery .dadadinner:hover{
  opacity: 1;
 }
 
@@ -404,9 +458,12 @@ body.nojQuery .zinefest:hover{
   background-color: #669999;
   float: left;
   transition: all .5s ease;
+    -moz-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
 }
 
-.linearmobil:hover{
+body.nojQuery .linearmobil:hover{
  opacity: 1;
 }
 
@@ -417,9 +474,12 @@ body.nojQuery .zinefest:hover{
   background-color: #993333;
   float: left;
   transition: all .5s ease;
+    -moz-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
 }
 
-.postcard:hover{
+body.nojQuery .postcard:hover{
  opacity: 1;
 }
 
@@ -430,9 +490,12 @@ body.nojQuery .zinefest:hover{
   background-color: #5BAB78;
   float: left;
   transition: all .5s ease;
+    -moz-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
 }
 
-.chair:hover{
+body.nojQuery .chair:hover{
  opacity: 1;
 }
 
@@ -443,9 +506,12 @@ body.nojQuery .zinefest:hover{
   background-color: #74A2D3;
   float: left;
   transition: all .5s ease;
+    -moz-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
 }
 
-.mariobotta:hover{
+body.nojQuery .mariobotta:hover{
  opacity: 1;
 }
 
@@ -456,9 +522,12 @@ body.nojQuery .zinefest:hover{
   background-color: #003366;
   float: left;
   transition: all .5s ease;
+    -moz-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
 }
 
-.alto:hover{
+body.nojQuery .alto:hover{
  opacity: 1;
 }
 
